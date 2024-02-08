@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(203, 203, 250);
+    background-image: url(imagens/empresa.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+/*estilo do topo do site*/
+div.topo{
+    height: 150px;
+    width: 100%;
+    background-image: url(imagens/formulario.jpg);
+    background-repeat: no-repeat;
+}
+
+/*formulário*/
+div.corpo{
+    background-color: white;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    padding-top: 10px;
+}
+
