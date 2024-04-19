@@ -27,10 +27,10 @@ div.topo{
     height: 150px;
     width:100%;
     background-image: url(imagens/formulario.jpg);
-    background-size: 100%;
+    background-size:cover;
     background-position: top center;
     background-repeat: no-repeat;
-    box-shadow: inset 20px 30px 40px rgba(0, 0, 0, 0.459);
+    box-shadow: inset 20px 30px 40px rgba(0, 0, 0, 0.551);
 
 }
 

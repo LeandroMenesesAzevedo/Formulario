@@ -14,19 +14,48 @@
         <h1>Cadastro de cliente</h1>
         
         <form action="">
-           <p> Nome: <input type="text" class="nome" id="inome" placeholder=" Digite o seu nome" checked> </p> 
-           <p> Sobrenome: <input type="text" class="sobrenome" id="isobrenome" placeholder="Digite o seu sobrenome" checked> </p>
-           <p> Idade: <input type="date" class="data_nasc" id="idata" checkedc> </p> 
+           <p> 
+                <label for="inome">Nome:</label> 
+                <input type="text" class="nome" id="inome" placeholder=" Digite o seu nome" checked> 
+            </p> 
+           <p> 
+                <label for="isobrenome"> Sobrenome: </label> 
+                <input type="text" class="sobrenome" id="isobrenome" placeholder="Digite o seu sobrenome" checked> 
+            </p>
+           <p> 
+                <label for="idata"> Idade: </label> 
+                <input type="date" class="data_nasc" id="idata" checkedc> 
+            </p> 
             
             <div class="sex">
                 <p class="titulo"> Sexo: </p>
-                <p> Masculino: <input type="checkbox" name="masc" id="imasc"> </p>
-                <p> Femenino: <input type="checkbox" name="fem" id="ifem"> </p> 
+                
+                <p> 
+                    <label for="imasc"> Masculino: </label> 
+                    <input type="radio" name="masc" id="imasc"> 
+                </p>
+               
+                <p> 
+                    <label for="ifem"> Femenino:</label> 
+                    <input type="radio" name="fem" id="ifem"> 
+                </p> 
+
             </div>
             
-            <p> Endereço: <input type="text" class="endereco" id="iendereco" placeholder="Digite seu endereço"> </p>
-            <p> Telefone: <input type="tel" class="telefone" id="itelefone" placeholder="(21) XXXXX-XXXX "> </p> 
-            <p> E-mail: <input type="email" class="email" id="iemail" placeholder="Digite seu e-mail" checked> </p> 
+            <p> 
+                <label for="iendereco">Endereço:</label> 
+                <input type="text" class="endereco" id="iendereco" placeholder="Digite seu endereço"> 
+            </p>
+
+            <p> 
+                <label for="itelefone"> Telefone: </label> 
+                <input type="tel" class="telefone" id="itelefone" placeholder="(21) XXXXX-XXXX "> 
+            </p> 
+            
+            <p> 
+                <label for="iemail"> E-mail: </label> 
+                <input type="email" class="email" id="iemail" placeholder="Digite seu e-mail" checked> 
+            </p> 
             
             <input type="submit" class="botao" value="Enviar">
             <input type="reset" class="botao" value="Limpar">
